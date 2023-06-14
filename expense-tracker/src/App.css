@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #16161a;
+  color: #fff;
+}
+main{
+
+  max-width: 360px;
+  margin: 30px auto;
+}
+h1{
+  text-align: center;
+  color: #ED2188;
+  margin: 0;
+  font-size: 2.5rem;
+}
+h1 span{
+  font-size: 1rem;
+}
+form{
+  margin-top: 20px;
+}
+form input{
+  width: 100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #ED2188;
+  border-radius: 5px;
+  padding: 2px 5px;
+
+}
+form input[type="datetime-local"]{
+  color: #ED2188;
+}
+form{
+  color: #ED2188;
+}
+form div.basics{
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+button{
+  width: 100%;
+  margin-top: 5px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ED2188;
+  color: #ddd;
+}
+button:hover{
+  background-color: #ddd;
+  color: #ED2188;
+}
+div.transactions{
+  margin-top: 15px;
+}
+div.transaction{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 ;
+  border-top: 1px solid #30313d;
+}
+
+div.transaction div.name{
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.transaction div.description{
+  font-size: 0.8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #6f6f6f;
+}
+div.right{
+  text-align: right;
+}
+div.price.green{
+  color: greenyellow;
+}
+div.price.red{
+  color: red;
+}
+
+
